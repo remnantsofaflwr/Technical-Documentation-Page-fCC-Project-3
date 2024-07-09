@@ -10,25 +10,25 @@
     <nav id="navbar"> 
         <header>Ableton Live Documentation</header>
         <ul>
-            <li> <a class="nav-link"></a></li>
-            <li> <a class="nav-link"></a></li>
-            <li> <a class="nav-link"></a></li>
-            <li> <a class="nav-link"></a></li>
-            <li> <a class="nav-link"></a></li>
+            <li> <a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li> <a class="nav-link" href="#Session_and_Arrangement_View">Session and Arrangement View</a></li>
+            <li> <a class="nav-link" href="#Max_for_Live">Max for Live</a></li>
+            <li> <a class="nav-link" href="#Ableton_Push">Ableton Push</a></li>
+            <li> <a class="nav-link" href="#Ableton_Note">Ableton Note</a></li>
         </ul>
     </nav>
 
     <main id="main-doc">
-    <section class-"main-section" id="Introduction">
+    <section id="Introduction" class="main-section">
         <header>Introduction</header>
         <article>
-            <p>Live is a fast, fluid and flexible software for music creation and performance. 
-                It comes with effects, instruments, sounds and all kinds of creative features—everything you need to make any kind of music.
-                Create in a traditional linear arrangement, or improvise without the constraints of a timeline in Live’s Session View. 
-                Move freely between musical elements and play with ideas, without stopping the music and without breaking your flow.</p>
+            <p>Live is a fast, fluid and flexible software for music creation and performance. </p>
+               <p> It comes with effects, instruments, sounds and all kinds of creative features—everything you need to make any kind of music. </p>
+               <p> Create in a traditional linear arrangement, or improvise without the constraints of a timeline in Live’s Session View. </p>
+               <p> Move freely between musical elements and play with ideas, without stopping the music and without breaking your flow.</p>
         </article>
     </section>
-    <section class-"main-section" id="Session and Arrangement View">
+    <section id="Session_and_Arrangement_View" class="main-section">
         <header>Session and Arrangement View</header>
         <article>
             <p>Session and Arrangement view are the two main UI setups for its creators. Here's the differences between them.</p>
@@ -43,26 +43,49 @@
             </ul>
         </article>
     </section>
-    <section class-"main-section">
+    <section id="Max_for_Live" class="main-section">
         <header>Max for Live</header>
         <article>
             <img src="max-intro-presentation-on-off.gif"></img>
-            <p>Max for Live is a platform to build your own instruments and effects, tools for live performance and visuals, and much more. All in Ableton.
-                You can open up any of Live's Max devices, see how they're built, and change them to meet your needs. You can build your own from scratch using the same components. 
-                And you can even use Max to change the way Live works, including the properties of tracks, clips and scenes.</p>
+            <p>Max for Live is a platform to build your own instruments and effects, tools for live performance and visuals, and much more. All in Ableton.</p>
+                <p> You can open up any of Live's Max devices, see how they're built, and change them to meet your needs. You can build your own from scratch using the same components. </p>
+            <p> And you can even use Max to change the way Live works, including the properties of tracks, clips and scenes.</p>
+            <p>
+                Though Max for Live is a visual coding language, here are some commands from mutateful, made by @carrierdown on Github. It's a software that enables live coding in Ableton's session view. 
+                <code>
+          <p> =B1 slice 1/2 transpose 0 7 slice 1/16 1/8 transpose -by C1</p>
+        </code> <p>Creates an arpeggio from a sustained note and chord</p>
+        <code>
+<p>=B1 C1 interleave -mode event</p>
+        </code> <p>Interleaves two clips together</p>
+        <code>
+          <p>=A4 ratchet 1 2 3 6 1 2 5 {</p>
+        </code> <p>Adds retriggering to a beat with Ratchet, which accepts a number of other parameters to scale the resulting retriggers in various ways.</p>
+        <code>
+          <p> =a4 ratchet 1 2 3 6 1 2 5 -shape easein -strength 0.5 </p>
+        </code> <p>Adds strength to the ratchets</p>
+        <code>
+          <p>=a4 ratchet 1 2 3 6 1 2 5 -shape easein -strength 2.5</p>
+        </code> <p>Here's the previous command with even higher strength</p>
+            </p>
         </article>
     </section>
-    <section class-"main-section" id="Ableton Push">
+    <section id="Ableton_Push" class="main-section">
       <header>Ableton Push</header>
-      <p>Built robustly for frequent travel between sessions and stages, the Ableton Push gives you independence from your computer so you can be fully in the moment with your music. 
-        Push contains MPE-enabled pads, a buit in audio interface, and standalone playability. All guaranteeing its stay as the heart of your setup for years to come. </p>
+      <p>Built robustly for frequent travel between sessions and stages, the Ableton Push gives you independence from your computer so you can be fully in the moment with your music. </p>
+       <p> Push contains:
+       <ul>
+           <li>MPE-enabled pads</li>
+           <li>A buit in audio interface</li>
+           <li> Standalone playability</li>
+           </ul> All guaranteeing its stay as the heart of your setup for years to come. </p>
     </section>
-    <section class-"main-section" id="Ableton Note">
+    <section id="Ableton_Note" class="main-section">
         <header>Ableton Note</header>
-        <p> The Note is a playable iOS app for forming musical ideas; on the go and on the fly. It'ss a place to start ideas, experiment with sounds and find direction. 
-            Wether you're creating for fun, or starting the next summer anthem, when you combine the Note with Ableton Cloud, you can send your Note Set to your Live set without leaving the app. 
-            Then keep working with all the same devices as in Note, but with additional parameters available. You're able to edit all your MIDI notes, and all your samples and sounds. 
-            Directly from Note. Without a change. </p>
+        <p> The Note is a playable iOS app for forming musical ideas; on the go and on the fly. It's a place to start ideas, experiment with sounds and find direction. </p>
+         <p> Wether you're creating for fun, or starting the next summer anthem, when you combine the Note with Ableton Cloud, you can send your Note Set to your Live set without leaving the app. </p>
+           <p> Then keep working with all the same devices as in Note, but with additional parameters available. You're able to edit all your MIDI notes, and all your samples and sounds. </p>
+           <p> Directly from Note. Without a change. </p>
     </section>
     </main>
 
